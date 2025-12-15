@@ -1,0 +1,59 @@
+h1, h2, p {
+    margin: 0;
+}
+
+.bc {
+    width: 1440px;
+    height: 1024px;
+    background-color: black;
+}
+
+.text {
+    width: 639px;
+    height: 364px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    position: absolute;
+
+    padding-left: 64px;
+    padding-top: 213px;
+}
+
+.text h1 {
+    font-family: "Bitter", serif;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 92px;
+
+    width: 639px;
+    height: 184px;
+    color: #FFFFFF;
+}
+
+.text p {
+    color: #FFFFFF;
+    width: 591px;
+    height: 66px;
+
+    font-size: 22px;
+    font-family: "Space Mono", monospace;
+
+ 
+}
+
+.text button {
+    background-color: #FFFFFF;
+    font-family: "Space Mono", monospace;
+
+    font-size: 20px;
+    line-height: 18px;
+
+    border: 0;
+    border-radius: 20px;
+
+    width: 215px;
+    height: 66px;
+}
