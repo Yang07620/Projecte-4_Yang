@@ -1,0 +1,159 @@
+h1, p, h2 {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    font-family: "Lato", sans-serif;
+
+    margin: 0;
+    padding: 25px 0px;
+
+    background-color: rgb(206, 206, 206);
+}
+
+.back-ground {
+    width: 1440px;
+    height: 1024px;
+    background: #ffffff;
+
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+.textos {
+    width: 663px;
+    height: 449px;
+
+    position: absolute;
+
+    padding-top: 209px;
+    padding-left: 64px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.textos h1 {
+    color: #FFFFFF;
+
+    font-size: 112px;
+    font-weight: 400;
+    line-height: 108px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    width: 663px;
+    height: 216px;
+}
+
+.textos p {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+
+    color: #FFFFFF;
+
+    width: 567px;
+    height: 87px;
+}
+
+.textos button {
+    background: #FE6E06;
+    border-radius: 40px;
+
+    width: 184px;
+    height: 66px;
+
+    border: 0;
+    padding: 0;
+
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+    line-height: 18px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.img-circle {
+    position: absolute;
+    padding-top: 136px;
+    padding-left: 413px;
+}
+
+.img-unsplash {
+    position: absolute;
+    padding-top: 135px;
+    padding-left: 723.02px;
+}
+
+.img-shape {
+    position: absolute;
+    padding-left: 795px;
+}
+
+.info {
+    width: 680px;
+    height: 185px;
+
+    padding-top: 775px;
+    padding-left: 64px;
+    position: absolute;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.div1 {
+    width: 216px;
+    height: 185px;
+    background: #FAEFE3;
+    border-radius: 24px;
+}
+
+.div-text {
+    width: 156px;
+    height: 129px;
+    font-family: 'Helvetica Neue', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.div-text h2 {
+    font-size: 20px;
+    font-weight: 500;
+
+    width: 40px;
+    height: 24px;
+}
+
+.div-text p {
+    width: 156px;
+    height: 57px;
+
+    font-weight: 300;
+    font-size: 16px;
+    color: #000103;
+}
+
+.div-color {
+    width: 1440px;
+    height: 875px;
+    background: #EFAF64;
+}
+
+.div-text img {
+    width: fit-content;
+    height: fit-content;
+}
+
+.div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

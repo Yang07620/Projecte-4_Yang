@@ -1,0 +1,140 @@
+body {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+
+    margin: 0;
+    padding: 25px 0px;
+
+    background-color: rgb(206, 206, 206);
+}
+
+.background {
+    background: #E8D9D6;
+    width: 1440px;
+    height: 1070px;
+
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+.img-tea {
+    position: absolute;
+    padding-left: 507px;
+}
+
+.img-1 {
+    position: absolute;
+    padding-left: 64px;
+    padding-top: 25px;
+}
+
+.menu-display {
+    position: absolute;
+    padding-left: 64px;
+    padding-top: 811px;
+}
+
+h1 {
+    margin: 0;
+    line-height: 1;
+
+    font-size: 112px;
+    color: #271908;
+}
+
+.div-text p {
+    margin: 0;
+    font-size: 24px;
+    color: #252525;
+
+}
+
+.title-box {
+    width: 574px;
+    height: 333px;
+
+
+    /* border: 1px solid black; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    position: absolute;
+    padding-top: 272px;
+    padding-left: 64px;
+
+}
+
+.div-text {
+    width: 561px;
+    height: 72px;
+
+    /* border: 1px solid black; */
+}
+
+button {
+    width: 227px;
+    height: 66px;
+    background: #271908;
+
+    font-size: 22px;
+    color: #FFFFFF;
+
+    border-radius: 40px;
+    font-family: "Poppins", sans-serif;
+}
+
+.menu {
+    width: 1310px;
+    height: 195px;
+    background: #E8D9D6;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.radiu-box {
+    width: 426px;
+    height: 195px;
+    background-color: #FFFDFC;
+
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.radiu-box-text {
+    width: 216px;
+    height: 133px;
+    /* border: 1px solid black; */
+}
+
+
+.radiu-box img {
+    position: absolute;
+}
+
+.radiu-box-text-padding {
+    padding-left: 181px;
+    padding-top: 31px;
+}
+
+.radiu-box-text p {
+    color: #252525;
+    font-size: 18px;
+    margin: 0;
+}
+
+.radiu-box-text h2 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 600;
+}
