@@ -54,3 +54,7 @@ img {
     padding: 30px;
     border-radius: 10px;
 }
+
+.box img {
+    border-radius: 5px;
+}
