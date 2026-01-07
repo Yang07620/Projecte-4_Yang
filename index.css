@@ -25,6 +25,11 @@ h2 {
     background: linear-gradient(50deg, rgba(255, 255, 255, 1) 0%, rgba(252, 255, 196, 1) 99%);
 } 
 
+.pro2 {
+    background: #FFFFFF;
+    background: linear-gradient(50deg, rgba(255, 255, 255, 1) 0%, rgb(255, 202, 56) 99%);
+}
+
 .pro3 {
     background: #FFFFFF;
     background: linear-gradient(50deg, rgba(255, 255, 255, 1) 0%, rgba(255, 132, 56, 1) 99%);
@@ -53,6 +58,16 @@ h2 {
 .pro8 {
     background: #FFFFFF;
     background: linear-gradient(50deg, rgba(255, 255, 255, 1) 0%, rgba(255, 201, 233, 1) 99%);
+}
+
+.pro8 {
+    background: #FFFFFF;
+    background: linear-gradient(50deg, rgba(255, 255, 255, 1) 0%, rgba(255, 201, 233, 1) 99%);
+}
+
+.pro9 {
+    background: #FFFFFF;
+    background: linear-gradient(50deg, rgba(255, 255, 255, 1) 0%, rgb(202, 201, 255) 99%);
 }
 
 /* --------------- */
