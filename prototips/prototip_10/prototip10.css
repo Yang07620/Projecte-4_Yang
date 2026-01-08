@@ -1,0 +1,77 @@
+.bc {
+    background-image: url(img/emile-seguin-R9OueKOtGGU-unsplash\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 1024px;
+
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+.box {
+    width: 676px;
+    height: 418px;
+
+    /* background-color: antiquewhite; */
+    font-family: "Lato", sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    position: absolute;
+    padding-top: 242px;
+    padding-left: 382px;
+}
+
+h1, p {
+    margin: 0;
+}
+
+.box h1 {
+    width: 676px;
+    height: 192px;
+
+    font-weight: 700;
+    font-size: 80px;
+    text-align: center;
+    color: #06040A;
+}
+
+.box p {
+    width: 632px;
+    height: 96px;
+    font-weight: 400;
+    color: #06040A;
+    font-size: 24px;
+    text-align: center;
+}
+
+.box button {
+    width: 222px;
+    height: 66px;
+    background: #06040A;
+    border-radius: 40px;
+    border: none;
+
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    font-family: "Lato", sans-serif;
+
+    margin: 0;
+    padding: 25px 0px;
+
+    background-color: rgb(206, 206, 206);
+}
