@@ -3,15 +3,42 @@ body {
     background-color: rgb(255, 255, 255);
 
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    gap: 90px;
     min-height: 100vh;
 
-    font-family: "Dancing Script", cursive;
+    font-family: "Changa One", sans-serif;
 
     background-image: url(img_index/1130469.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+nav {
+    width: 100%;
+    height: fit-content;
+    background-color: #ffffff0c;
+
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+
+    padding: 20px 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+footer {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+
+    padding: 20px 0px;
+
+    background-color: #ffffff0c;
+    border-top: 1px solid rgb(255, 255, 255, 0.5);
+
+    width: 100%;
 }
 
 h1, h2, p {
@@ -24,17 +51,17 @@ h2 {
 }
 
 /* ------COLORES---- */
-.pro1 {
+/* .pro1 {
     background: #FFFFFF;
     background: linear-gradient(50deg, rgba(255, 255, 255, 1) 0%, rgba(252, 255, 196, 1) 99%);
-} 
+}  */
 
-.pro2 {
+/* .pro2 {
     background: #FFFFFF;
     background: linear-gradient(50deg, rgba(255, 255, 255, 1) 0%, rgb(255, 202, 56) 99%);
-}
+} */
 
-.pro3 {
+/* .pro3 {
     background: #FFFFFF;
     background: linear-gradient(50deg, rgba(255, 255, 255, 1) 0%, rgba(255, 132, 56, 1) 99%);
 }
@@ -47,9 +74,9 @@ h2 {
 .pro5 {
     background: #FFFFFF;
     background: linear-gradient(50deg, rgba(255, 255, 255, 1) 0%, rgba(255, 229, 201, 1) 99%);
-}
+} */
 
-.pro6 {
+/* .pro6 {
     background: #FFFFFF;
     background: linear-gradient(50deg, rgba(255, 255, 255, 1) 0%, rgba(222, 140, 255, 1) 99%);
 }
@@ -77,14 +104,14 @@ h2 {
 .pro10 {
     background: #FFFFFF;
     background: linear-gradient(50deg, rgba(255, 255, 255, 1) 0%, rgb(167, 167, 167) 99%);
-}
+} */
 
 /* --------------- */
 
 .box {
     width: 290px;
     height: 320px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.13);
 
     display: flex;
     flex-direction: column;
@@ -95,6 +122,13 @@ h2 {
     box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.365);
 
     border-radius: 10px;
+
+    color: rgb(255, 255, 255);
+}
+
+.box a:hover {
+    border-bottom: 5px solid rgb(255, 255, 255);
+    padding-bottom: 5px;
 }
 
 img {
@@ -114,10 +148,10 @@ img {
     flex-direction: column;
     gap: 50px;
     
-    background-color: rgba(255, 255, 255, 0.308);
+    background-color: rgba(255, 255, 255, 0);
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.222);
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.178);
 }
 
 .box img {
