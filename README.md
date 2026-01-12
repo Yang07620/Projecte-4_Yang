@@ -15,7 +15,6 @@ Maquetar **un mínim de 10 prototips** dels **51 prototips creats a Figma**, apl
 - Estructura semàntica correcta
 - Maquetació fidel als prototips de Figma
 - Codi net i ordenat ✨
-- Disseny responsive (quan sigui possible 📱💻)
 
 ## 🛠️ Tecnologies utilitzades
 - HTML5  
