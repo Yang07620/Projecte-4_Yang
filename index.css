@@ -18,13 +18,13 @@ body {
 nav {
     width: 100%;
     height: fit-content;
-    background-color: #ffffff0c;
+    background-color: #ffffff11;
 
     text-align: center;
     font-family: "Poppins", sans-serif;
     color: #FFFFFF;
 
-    padding: 20px 0px;
+    padding: 30px 0px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
@@ -32,11 +32,12 @@ footer {
     font-family: "Poppins", sans-serif;
     text-align: center;
     color: #FFFFFF;
+    font-size: 20px;
 
     padding: 20px 0px;
 
-    background-color: #ffffff0c;
-    border-top: 1px solid rgb(255, 255, 255, 0.5);
+    /* background-color: #ffffff0c; */
+    /* border-top: 1px solid rgb(255, 255, 255, 0.5); */
 
     width: 100%;
 
@@ -54,64 +55,6 @@ h2 {
     font-weight: 400;
     letter-spacing: 2px;
 }
-
-/* ------COLORES---- */
-/* .pro1 {
-    background: #FFFFFF;
-    background: linear-gradient(50deg, rgba(255, 255, 255, 1) 0%, rgba(252, 255, 196, 1) 99%);
-}  */
-
-/* .pro2 {
-    background: #FFFFFF;
-    background: linear-gradient(50deg, rgba(255, 255, 255, 1) 0%, rgb(255, 202, 56) 99%);
-} */
-
-/* .pro3 {
-    background: #FFFFFF;
-    background: linear-gradient(50deg, rgba(255, 255, 255, 1) 0%, rgba(255, 132, 56, 1) 99%);
-}
-
-.pro4 {
-    background: #ffffff;
-    background: linear-gradient(50deg, rgba(255, 255, 255, 1) 0%, rgba(143, 206, 255, 1) 99%);
-}
-
-.pro5 {
-    background: #FFFFFF;
-    background: linear-gradient(50deg, rgba(255, 255, 255, 1) 0%, rgba(255, 229, 201, 1) 99%);
-} */
-
-/* .pro6 {
-    background: #FFFFFF;
-    background: linear-gradient(50deg, rgba(255, 255, 255, 1) 0%, rgba(222, 140, 255, 1) 99%);
-}
-
-.pro7 {
-    background: #FFFFFF;
-    background: linear-gradient(50deg, rgba(255, 255, 255, 1) 0%, rgba(201, 255, 204, 1) 99%);
-}
-
-.pro8 {
-    background: #FFFFFF;
-    background: linear-gradient(50deg, rgba(255, 255, 255, 1) 0%, rgba(255, 201, 233, 1) 99%);
-}
-
-.pro8 {
-    background: #FFFFFF;
-    background: linear-gradient(50deg, rgba(255, 255, 255, 1) 0%, rgba(255, 201, 233, 1) 99%);
-}
-
-.pro9 {
-    background: #FFFFFF;
-    background: linear-gradient(50deg, rgba(255, 255, 255, 1) 0%, rgb(202, 201, 255) 99%);
-}
-
-.pro10 {
-    background: #FFFFFF;
-    background: linear-gradient(50deg, rgba(255, 255, 255, 1) 0%, rgb(167, 167, 167) 99%);
-} */
-
-/* --------------- */
 
 .box {
     width: 290px;
@@ -139,7 +82,7 @@ h2 {
 .box img {
     width: 220px;
     height: 200px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.219);
     border: 1px solid rgba(0, 0, 0, 0.127);
 }
 
@@ -156,7 +99,7 @@ h2 {
     background-color: rgba(255, 255, 255, 0);
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.178);
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.205);
 
     border: 1px solid rgba(255, 255, 255, 0.116);
 }
@@ -166,11 +109,72 @@ h2 {
 }
 
 footer img {
-    width: 26px;
-    height: 26px;
+    width: 36px;
+    height: 36px;
 }
 
 footer a {
     display: flex;
     align-items: center;
+}
+
+/* COLOR TEXT */
+.color2 {
+    background-color: rgb(173, 68, 121);
+    padding: 3px 8px 7px 8px;
+    border-radius: 10px;
+}
+
+.color3 {
+    background-color: rgb(255, 200, 138);
+    padding: 3px 8px 7px 8px;
+    border-radius: 10px;
+}
+
+.color4 {
+    background-color: rgb(173, 68, 168);
+    padding: 3px 8px 7px 8px;
+    border-radius: 10px;
+}
+
+.color5 {
+    background-color: rgb(228, 125, 164);
+    padding: 3px 8px 7px 8px;
+    border-radius: 10px;
+}
+
+.color6 {
+    background-color: rgb(199, 141, 86);
+    padding: 3px 8px 7px 8px;
+    border-radius: 10px;
+}
+
+.color7 {
+    background-color: rgb(255, 161, 247);
+    padding: 3px 8px 7px 8px;
+    border-radius: 10px;
+}
+
+.color8 {
+    background-color: rgb(66, 23, 122);
+    padding: 3px 8px 7px 8px;
+    border-radius: 10px;
+}
+
+.color9 {
+    background-color: rgb(211, 190, 100);
+    padding: 3px 8px 7px 8px;
+    border-radius: 10px;
+}
+
+.color10 {
+    background-color: rgb(255, 73, 240);
+    padding: 3px 8px 7px 8px;
+    border-radius: 10px;
+}
+
+.color11 {
+    background-color: rgb(83, 216, 123);
+    padding: 3px 8px 7px 8px;
+    border-radius: 10px;
 }
