@@ -39,6 +39,11 @@ footer {
     border-top: 1px solid rgb(255, 255, 255, 0.5);
 
     width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 h1, h2, p {
@@ -131,7 +136,7 @@ h2 {
     padding-bottom: 5px;
 }
 
-img {
+.box img {
     width: 220px;
     height: 200px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -152,8 +157,20 @@ img {
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.178);
+
+    border: 1px solid rgba(255, 255, 255, 0.116);
 }
 
 .box img {
     border-radius: 5px;
+}
+
+footer img {
+    width: 26px;
+    height: 26px;
+}
+
+footer a {
+    display: flex;
+    align-items: center;
 }
